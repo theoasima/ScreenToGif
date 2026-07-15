@@ -8,17 +8,17 @@
     <!--Special texts like {0}, are place holders for dynamic values, such as numbers.-->
     
     <!--General-->
-    <s:String x:Key="S.Ok">Ok</s:String>
+    <s:String x:Key="S.Ok">OΚ</s:String>
     <s:String x:Key="S.Back">Πίσω</s:String>
     <s:String x:Key="S.Cancel">Άκυρο</s:String>
     <s:String x:Key="S.Yes">Ναι</s:String>
-    <s:String x:Key="S.No">No</s:String>
+    <s:String x:Key="S.No">Όχι</s:String>
     <s:String x:Key="S.Add">Προσθήκη</s:String>
     <s:String x:Key="S.Edit">Επεξεργασία</s:String>
     <s:String x:Key="S.Id">Αναγνωριστικό</s:String>
     <s:String x:Key="S.Title">Τίτλος</s:String>
     <s:String x:Key="S.Description">Περιγραφή</s:String>
-    <s:String x:Key="S.SelectColor">Click here to select the color.</s:String>
+    <s:String x:Key="S.SelectColor">Κάντε κλικ εδώ για να επιλέξτε το χρώμα.</s:String>
     <s:String x:Key="S.Documentation">Click to navigate to the documentation.</s:String>
     <s:String x:Key="S.Suppress">Suppress</s:String>
     <s:String x:Key="S.Preview">Προεπισκόπηση</s:String>
@@ -1839,23 +1839,23 @@
     <s:String x:Key="S.SaveAs.SaveOptions.ExecuteCommands.Info">Type commands to be executed after the encoding.&#x0d;To execute multiple commands, type each one on a separated line.&#x0d;Macros:&#x0d;{p} = Output file path.&#x0d;{f} = Output folder path.&#x0d;{u} = URL of the uploaded file.</s:String>
     
     <!--Editor • Save As > Partial export-->
-    <s:String x:Key="S.SaveAs.Partial">Partial export</s:String>
+    <s:String x:Key="S.SaveAs.Partial">Μερική εξαγωγή</s:String>
     <s:String x:Key="S.SaveAs.Partial.Mode">Λειτουργία:</s:String>
-    <s:String x:Key="S.SaveAs.Partial.Mode.Info">Select the partial export method.</s:String>
-    <s:String x:Key="S.SaveAs.Partial.Mode.Expression">Expression</s:String>
-    <s:String x:Key="S.SaveAs.Partial.Mode.Expression.Info">Exports parts of the animation based on a simple expression.</s:String>
+    <s:String x:Key="S.SaveAs.Partial.Mode.Info">Επιλέξτε τη μέθοδο μερικής εξαγωγής.</s:String>
+    <s:String x:Key="S.SaveAs.Partial.Mode.Expression">Έκφραση</s:String>
+    <s:String x:Key="S.SaveAs.Partial.Mode.Expression.Info">Εξάγει τμήματα της κινούμενης εικόνας με βάση μια απλή έκφραση.</s:String>
     <s:String x:Key="S.SaveAs.Partial.Mode.Frames">Εύρος καρέ</s:String>
-    <s:String x:Key="S.SaveAs.Partial.Mode.Frames.Info">Exports only part of the animation within the frame range.</s:String>
-    <s:String x:Key="S.SaveAs.Partial.Mode.Time">Time range</s:String>
-    <s:String x:Key="S.SaveAs.Partial.Mode.Time.Info">Exports only part of the animation within the timeframe.</s:String>
+    <s:String x:Key="S.SaveAs.Partial.Mode.Frames.Info">Εξάγει μόνο το τμήμα της κινούμενης εικόνας εντός του εύρους καρέ.</s:String>
+    <s:String x:Key="S.SaveAs.Partial.Mode.Time">Εύρος χρόνου</s:String>
+    <s:String x:Key="S.SaveAs.Partial.Mode.Time.Info">Εξάγει μόνο το τμήμα της κινούμενης εικόνας εντός του χρονικού πλαισίου.</s:String>
     <s:String x:Key="S.SaveAs.Partial.Mode.Selection">Επιλογή</s:String>
-    <s:String x:Key="S.SaveAs.Partial.Mode.Selection.Info">Exports only the frames selected in the timeline.</s:String>
+    <s:String x:Key="S.SaveAs.Partial.Mode.Selection.Info">Εξάγει μόνο τα καρέ που είναι επιλεγμένα στη γραμμή χρόνου.</s:String>
     <s:String x:Key="S.SaveAs.Partial.Mode.Selection.None">Δεν επιλέχθηκε καρέ.</s:String>
     <s:String x:Key="S.SaveAs.Partial.Mode.Selection.Singular">1 καρέ επιλέχθηκε.</s:String>
     <s:String x:Key="S.SaveAs.Partial.Mode.Selection.Plural">{0} καρέ επιλέχθηκαν.</s:String>
     <s:String x:Key="S.SaveAs.Partial.From">Από:</s:String>
-    <s:String x:Key="S.SaveAs.Partial.To">Σε:</s:String>
-    <s:String x:Key="S.SaveAs.Partial.Expression">Expression:</s:String>
+    <s:String x:Key="S.SaveAs.Partial.To">Έως:</s:String>
+    <s:String x:Key="S.SaveAs.Partial.Expression">Έκφραση:</s:String>
     <s:String x:Key="S.SaveAs.Partial.Expression.Info">Type frame numbers separated by a comma or&#10;frame sequences separated by a minus sign:&#10;1, 3, 4, 6 - 9</s:String>
     
     <!--Editor • Save as > File-->
@@ -1899,8 +1899,8 @@
     <s:String x:Key="S.SaveAs.Upload.Edit">Επεξεργασία ρυθμίσεων προρύθμισης μεταφόρτωσης.</s:String>
     <s:String x:Key="S.SaveAs.Upload.History">View the upload history of this preset.</s:String>
     <s:String x:Key="S.SaveAs.Upload.Remove">Remove the currently selected upload preset.</s:String>
-    <s:String x:Key="S.SaveAs.Upload.Select.Title">Επιλέξτε μια προσρύθμιση μεταφόρτωσης</s:String>
-    <s:String x:Key="S.SaveAs.Upload.Select.Description">Pick one from this list.</s:String>
+    <s:String x:Key="S.SaveAs.Upload.Select.Title">Επιλέξτε μια προρύθμιση μεταφόρτωσης</s:String>
+    <s:String x:Key="S.SaveAs.Upload.Select.Description">Επιλέξτε μια απο τη λίστα.</s:String>
     <s:String x:Key="S.SaveAs.Upload.Unavailable.Title">No upload preset available for this format</s:String>
     <s:String x:Key="S.SaveAs.Upload.Unavailable.Description">Προσθέστε μια προρύθμιση χρησιμοποιώντας το κουμπί παρακάτω.</s:String>
     
@@ -1911,7 +1911,7 @@
     
     <!--Save As • Dialogs-->
     <s:String x:Key="S.SaveAs.Dialogs.Multiple.Title">Εξαγωγή καρέ</s:String>
-    <s:String x:Key="S.SaveAs.Dialogs.Multiple.Instruction">Είστε βέβαιοι ότι θέλετε να εξάγετε τα καρέ;</s:String>
+    <s:String x:Key="S.SaveAs.Dialogs.Multiple.Instruction">Είστε βέβαιοι ότι θέλετε να εξαγάγετε τα καρέ;</s:String>
     <s:String x:Key="S.SaveAs.Dialogs.Multiple.Message">This action will export {0} frames directly into the selected folder.</s:String>
     <s:String x:Key="S.SaveAs.Dialogs.Overwrite.Title">Αντικατάστση</s:String>
     <s:String x:Key="S.SaveAs.Dialogs.Overwrite.Instruction">Θέλετε να αντικαταστήσετε το αρχείο;</s:String>
@@ -1982,27 +1982,27 @@
     
     <!--VerticalAlignment-->
     <s:String x:Key="S.VerticalAlignment.Top">Επάνω</s:String>
-    <s:String x:Key="S.VerticalAlignment.Center">Κέντρο</s:String>
+    <s:String x:Key="S.VerticalAlignment.Center">Στο κέντρο</s:String>
     <s:String x:Key="S.VerticalAlignment.Bottom">Κάτω</s:String>
     <s:String x:Key="S.Alignment.Stretch">Παραμόρφωση</s:String>
 
     <!--HorizontalAlignment-->
     <s:String x:Key="S.HorizontalAlignment.Left">Αριστερά</s:String>
-    <s:String x:Key="S.HorizontalAlignment.Center">Κέντρο</s:String>
+    <s:String x:Key="S.HorizontalAlignment.Center">Στο κέντρο</s:String>
     <s:String x:Key="S.HorizontalAlignment.Right">Δεξιά</s:String>
     
     <!--Orientation-->
-    <s:String x:Key="S.Orientation.Horizontal">Horizontal</s:String>
-    <s:String x:Key="S.Orientation.Vertical">Vertical</s:String>
+    <s:String x:Key="S.Orientation.Horizontal">Οριζόντιος</s:String>
+    <s:String x:Key="S.Orientation.Vertical">Κατακόρυφος</s:String>
     
     <!--TextAlignment-->
     <s:String x:Key="S.TextAlignment.Left">Αριστερά</s:String>
     <s:String x:Key="S.TextAlignment.Right">Δεξιά</s:String>
     <s:String x:Key="S.TextAlignment.Center">Κέντρο</s:String>
-    <s:String x:Key="S.TextAlignment.Justify">Justify</s:String>
+    <s:String x:Key="S.TextAlignment.Justify">Πλήρης στοίχιση</s:String>
     
     <!--TextDecoration-->
-    <s:String x:Key="S.TextDecorations.None">None</s:String>
+    <s:String x:Key="S.TextDecorations.None">Κανένα</s:String>
     <s:String x:Key="S.TextDecorations.Underline">Υπογράμμιση</s:String>
     <s:String x:Key="S.TextDecorations.Strikethrough">Διακριτή διαγραφή</s:String>
     <s:String x:Key="S.TextDecorations.OverLine">OverLine</s:String>
