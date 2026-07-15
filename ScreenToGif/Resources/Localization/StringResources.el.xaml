@@ -1856,7 +1856,7 @@
     <s:String x:Key="S.SaveAs.Partial.From">Από:</s:String>
     <s:String x:Key="S.SaveAs.Partial.To">Έως:</s:String>
     <s:String x:Key="S.SaveAs.Partial.Expression">Έκφραση:</s:String>
-    <s:String x:Key="S.SaveAs.Partial.Expression.Info">Type frame numbers separated by a comma or&#10;frame sequences separated by a minus sign:&#10;1, 3, 4, 6 - 9</s:String>
+    <s:String x:Key="S.SaveAs.Partial.Expression.Info">Πληκτρολογήστε αριθμούς καρέ διαχωρισμένους με κόμμα ή&#10;ακολουθίες καρέ διαχωρισμένες με παύλα:&#10;1, 3, 4, 6 - 9</s:String>
     
     <!--Editor • Save as > File-->
     <s:String x:Key="S.SaveAs.File">Αρχείο</s:String>
